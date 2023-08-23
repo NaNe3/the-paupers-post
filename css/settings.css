@@ -1,0 +1,61 @@
+label {
+    font-family: arial;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    padding: 26px 16px 8px 16px;
+    font-size: 16px;
+    border: 0;
+    background-color: #dfdfdf;
+    border-radius: 6px;
+    transition: 0.5s;
+    outline: 0;
+    width: 100%;
+    
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+}
+
+input:focus {
+    border: 0;
+    background-color: #cdcdcd;
+}
+
+input:focus > label {
+    color: greenyellow;
+}
+
+.opt {
+    padding: 6px 20px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 100;
+    cursor: pointer;
+    margin: 2px 0;
+}
+
+.opt:hover {
+    color: brown;
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}
+
+input[type=checkbox]:hover {
+    background-color: red;
+}
+
+.email-tag {
+    background-color: #ddd; 
+    border-radius: 3px; 
+    padding: 4px; 
+    font-size: 12px; 
+    display: inline;
+    font-family: arial;
+    margin-right: 10px;
+}

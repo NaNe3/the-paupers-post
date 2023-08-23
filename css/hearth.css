@@ -1,0 +1,122 @@
+.latest-div {
+/*    height: 120px;*/
+    padding: 20px;
+    display: inline-block;
+    margin-left: auto;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+input[type=text], input[type=password], input[type=email]{
+    width: 80%;
+    padding: 12px 24px;
+    border: 3px solid grey;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+    outline: none;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border: 3px solid black;
+}
+
+#newsletter-form {
+    background-image: url(../res/ast/beanstalk.png);
+    max-width: 2000px;
+    margin: auto;
+}
+
+input {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#social-box a {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 20px;
+    color: brown;
+}
+
+.info-box {
+    padding-top: 47px;
+    text-align: left;
+    
+}
+.info-box a { 
+    display: block; 
+    margin: 0px 0px 7px 10px;
+    color: #444;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    transition: 0.1s;
+}
+
+.info-box a:hover {
+    color: brown;
+}
+
+.info-box p {
+    margin-left: 20px;
+    color: #444;
+    text-align: center;
+}
+
+.ag-link {
+    color: #333;
+    font-size: 19px;
+    font-weight: bold;
+    transition: 0.1s;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.ag-link:hover {
+/*    text-decoration: underline;*/
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.svg {
+    width: 32px; 
+    height: 32px; 
+    border: 1px solid black; 
+    padding: 5px; 
+    border-radius: 6px; 
+    background-color: white;
+    transition: 0.5s;
+}
+
+.svg:hover {
+    background-color: brown;
+}
+
+#inner-div a {
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px auto;
+    margin-left: 10px;
+}
+
+#load-modal {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    
+    z-index: 5000;
+    left: 0;
+    top: 0;
+}
+
+#modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

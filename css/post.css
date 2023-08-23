@@ -1,0 +1,58 @@
+.pub-cont {
+    background-color: #eee;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#head-line {
+    max-width: 100%;
+    min-width: 100%;
+    font-size: 28px;
+    text-align: center;
+    min-height: 100px;
+    max-height: 200px;
+    margin: 20px 0px;
+    border: 0;
+    outline: 0;
+    background-color: #eee;
+}
+
+#article-box {
+    max-width: 100%;
+    min-width: 100%;
+    font-size: 20px;
+    min-height: 300px;
+    border: 0px;
+    outline: 0;
+    background-color: #eee;
+    overflow: visible;
+    height: auto;
+}
+
+#lead::-webkit-file-upload-button{
+    text-align: center;
+    background-color: white;
+    display: block;
+    font-size: 24px;
+    width: 100%;
+    margin: auto;
+    border: 5px dashed black;
+    border-radius: 6px;
+    height: 200px;
+    outline: none;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#lead {
+    width: 100%;
+}
+
+#lead::-webkit-file-upload-button:hover {
+    background-color: #eee;
+    color: grey;
+}
+
+#leadImg {
+    border-radius: 3px;
+}
